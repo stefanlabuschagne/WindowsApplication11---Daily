@@ -41,7 +41,6 @@ Module Module1
         DaConnection.Open()
 
         '' Dim DaRange As Microsoft.Office.Interop.Excel.Range
-
         '' ProgressBar1.Maximum = 25000
 
         Using DaConnection
@@ -191,6 +190,7 @@ Module Module1
         ' Then Save as an Excell sheet '
         ' IN 2003 Format (.xls)        ;
         ''''''''''''''''''''''''''''''''
+        Dim TT = "Hello"
 
         Try
             MSXApp.Workbooks(1).SaveAs(DaFileName, XlFileFormat.xlOpenXMLWorkbook, , , , , , , , , , )
