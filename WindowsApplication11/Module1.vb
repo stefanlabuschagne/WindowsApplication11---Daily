@@ -246,7 +246,7 @@ Module Module1
         Dim DaMessage As MailMessage = New MailMessage()
         Dim DaClient As SmtpClient = New SmtpClient()
 
-        DaMessage.From = New MailAddress("Stefan.Labuschagne@treasury.gov.za")
+        DaMessage.From = New MailAddress("noreply@treasury.gov.za")
 
         '' DaMessage.To.Add(New MailAddress("Anna-marie.Pienaar@treasury.gov.za"))
         '' DaMessage.To.Add(New MailAddress("Elmari.DeWitt@treasury.gov.za"))
