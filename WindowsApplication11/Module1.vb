@@ -190,7 +190,7 @@ Module Module1
         ' Then Save as an Excell sheet '
         ' IN 2003 Format (.xls)        ;
         ''''''''''''''''''''''''''''''''
-        Dim TT = "Hello"
+        Dim TT = "Hel lo"
 
         Try
             MSXApp.Workbooks(1).SaveAs(DaFileName, XlFileFormat.xlOpenXMLWorkbook, , , , , , , , , , )
